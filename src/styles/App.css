@@ -1,1 +1,106 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
 
+.App h1 {
+  color: #27aedb;
+  text-align: center;
+}
+
+.App nav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.App nav a {
+  color: #27aedb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App nav a:hover {
+  text-decoration: underline;
+}
+
+.posts-list h2 {
+  color: #333;
+}
+
+.post-excerpt,
+.post {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.post-content {
+  color: #555;
+  white-space: pre-wrap;
+}
+
+.post-author {
+  display: block;
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.reactions {
+  display: flex;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.reaction-button {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #27aedb;
+  background-color: #fff;
+  color: #27aedb;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #27aedb;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 500px;
+}
+
+form input,
+form textarea,
+form select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.notificationsList .notification {
+  border-left: 4px solid #27aedb;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  background-color: #f5f9fb;
+}
